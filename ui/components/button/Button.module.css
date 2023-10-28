@@ -1,0 +1,39 @@
+.button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button[data-size="small"] {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.primary {
+    background-color: blue;
+    color: white;
+}
+
+.secondary {
+    background-color: grey;
+    color: white;
+}
+
+.tertiary {
+    background-color: transparent;
+    color: blue;
+}
+
+.iconStart, .iconEnd {
+    background-color: transparent;
+    color: blue;
+}
